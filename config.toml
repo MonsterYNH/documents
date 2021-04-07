@@ -1,4 +1,4 @@
 baseURL = "/document"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "首云产品支持文档"
 theme = "hugo-theme-learn-master"
