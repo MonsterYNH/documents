@@ -1,4 +1,4 @@
-baseURL = "/document"
+baseURL = "/documents"
 languageCode = "en-us"
 title = "首云产品支持文档"
 theme = "hugo-theme-learn-master"
