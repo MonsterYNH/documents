@@ -20,9 +20,8 @@ jobs:
         run: hugo
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@master
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: MonsterYNH/documents
-          publish_branch: main
-          publish_dir: ./public
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
